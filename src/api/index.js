@@ -1,5 +1,4 @@
 import axios from 'axios';
-//import { getAllProducts } from '../../db/product';
 
 export async function getSomething() {
   try {
@@ -9,4 +8,3 @@ export async function getSomething() {
     throw error;
   }
 }
-
