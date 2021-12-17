@@ -9,6 +9,5 @@ module.exports = {
   ...require('./product'), // Products
   ...require('./users'), // Users
   ...require('./orders'), // Orders
-  ...require('./order_products'), // Line Items
-  ...require('./reviews')
+  ...require('./order_products')
 }
